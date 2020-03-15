@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../logo.svg';
 import './App.css';
+import Question from './Question/Question';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           React Quiz.
         </p>
       </header>
+      <Question content="Test"/>
     </div>
   );
 }
