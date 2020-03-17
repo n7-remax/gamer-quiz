@@ -18,6 +18,7 @@ class App extends Component {
       answersCount: {},
       result: ''
     };
+    this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
 
   componentDidMount() {
@@ -47,6 +48,25 @@ class App extends Component {
   
     return array;
   };
+
+  setUserAnswer(answer) {
+    this.setState((state) => ({
+      answersCount: {
+        ...state.answersCount,
+        [answer]: (state.answersCount[answer] || 0) + 1
+      },
+      answer: answer
+    }));
+  }
+
+  handleAnswerSelected(event) {
+    this.setUserAnswer(event.currentTarget.value);
+    if (this.state.questionId < quizQuestions.length) {
+        setTimeout(() => this.setNextQuestion(), 300);
+      } else {
+        // TODO
+      }
+  }
 
   render() {
     return (
