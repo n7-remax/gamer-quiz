@@ -64,7 +64,7 @@ class App extends Component {
     if (this.state.questionId < quizQuestions.length) {
         setTimeout(() => this.setNextQuestion(), 300);
       } else {
-        // TODO
+        setTimeout(() => this.setResults(this.getResults()), 300);
       }
   }
 
