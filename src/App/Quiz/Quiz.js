@@ -4,7 +4,8 @@ import QuestionCount from '../QuestionCount/QuestionCount';
 import Question from '../Question/Question';
 import AnswerOption from '../AnswerOption/AnswerOption';
 
-function renderAnswerOptions(key) {
+function Quiz(props) {
+  function renderAnswerOptions(key) {
     return (
       <AnswerOption
         key={key.content}
@@ -16,20 +17,19 @@ function renderAnswerOptions(key) {
       />
     );
   }
+  
+  return (
+    <div className="quiz">
+      <QuestionCount
+        counter={props.questionId}
+        total={props.questionTotal}
+      />
+      <Question content={props.question} />
+      <ul className="answerOptions">
+        {props.answerOptions.map(renderAnswerOptions)}
+      </ul>
+    </div>
+  );
+}
 
-function Quiz(props) {
-    return (
-        <div className="quiz">
-          <QuestionCount
-            counter={props.questionId}
-            total={props.questionTotal}
-          />
-          <Question content={props.question} />
-          <ul className="answerOptions">
-            {props.answerOptions.map(renderAnswerOptions)}
-          </ul>
-        </div>
-    );
-  }
-    
-  export default Quiz;
+export default Quiz;
