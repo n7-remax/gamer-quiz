@@ -3,6 +3,7 @@ import logo from '../logo.svg';
 import './App.css';
 
 import quizQuestions from '../api/quizQuestions';
+import Quiz from './Quiz/Quiz';
 
 class App extends Component {
   constructor(props) {
@@ -56,6 +57,14 @@ class App extends Component {
             React Quiz
         </p>
         </header>
+        <Quiz
+        answer={this.state.answer}
+        answerOptions={this.state.answerOptions}
+        questionId={this.state.questionId}
+        question={this.state.question}
+        questionTotal={quizQuestions.length}
+        onAnswerSelected={this.handleAnswerSelected}
+      />
       </div>
     )
   }
