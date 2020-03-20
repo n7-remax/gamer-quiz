@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gamer-quiz/static/css/main.3b8d9eee.chunk.css",
+    "main.js": "/gamer-quiz/static/js/main.ed5938e3.chunk.js",
+    "main.js.map": "/gamer-quiz/static/js/main.ed5938e3.chunk.js.map",
+    "runtime-main.js": "/gamer-quiz/static/js/runtime-main.2bb86d7b.js",
+    "runtime-main.js.map": "/gamer-quiz/static/js/runtime-main.2bb86d7b.js.map",
+    "static/js/2.43c1f300.chunk.js": "/gamer-quiz/static/js/2.43c1f300.chunk.js",
+    "static/js/2.43c1f300.chunk.js.map": "/gamer-quiz/static/js/2.43c1f300.chunk.js.map",
+    "index.html": "/gamer-quiz/index.html",
+    "precache-manifest.23ebc43d4521e964b01377a77f55ab0d.js": "/gamer-quiz/precache-manifest.23ebc43d4521e964b01377a77f55ab0d.js",
+    "service-worker.js": "/gamer-quiz/service-worker.js",
+    "static/css/main.3b8d9eee.chunk.css.map": "/gamer-quiz/static/css/main.3b8d9eee.chunk.css.map",
+    "static/js/2.43c1f300.chunk.js.LICENSE.txt": "/gamer-quiz/static/js/2.43c1f300.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/gamer-quiz/static/media/icon-check.a34a3680.svg",
+    "static/media/logo.svg": "/gamer-quiz/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bb86d7b.js",
+    "static/js/2.43c1f300.chunk.js",
+    "static/css/main.3b8d9eee.chunk.css",
+    "static/js/main.ed5938e3.chunk.js"
+  ]
+}
