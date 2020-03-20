@@ -3,33 +3,33 @@ const quizQuestions = [
         question: "What franchise would you rather play a game from?",
         answers: [
             {
-                type: "Microsoft",
+                type: "PC",
+                content: "StarCraft"
+            },
+            {
+                type: "X-Box",
                 content: "Halo"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
-            },
-            {
-                type: "Sony",
+                type: "PlayStation",
                 content: "Uncharted"
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "Which platform would you prefer to play with friends?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box"
+                type: "PC",
+                content: "PC"
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
+                type: "X-Box",
+                content: "X-Box One"
             },
             {
-                type: "Sony",
-                content: "Playstation 1"
+                type: "PlayStation",
+                content: "Playstation 4"
             }
         ]
     },
@@ -37,15 +37,15 @@ const quizQuestions = [
         question: "Which of these racing franchises would you prefer to play a game from?",
         answers: [
             {
-                type: "Microsoft",
+                type: "PC",
+                content: "Need For Speed"
+            },
+            {
+                type: "X-Box",
                 content: "Forza"
             },
             {
-                type: "Nintendo",
-                content: "Mario Kart"
-            },
-            {
-                type: "Sony",
+                type: "PlayStation",
                 content: "Gran Turismo"
             }
         ]
@@ -54,33 +54,33 @@ const quizQuestions = [
         question: "Which of these games do you think is best?",
         answers: [
             {
-                type: "Microsoft",
-                content: "BioShock"
+                type: "PC",
+                content: "Doom"
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
+                type: "X-Box",
+                content: "Gears of War"
             },
             {
-                type: "Sony",
-                content: "Final Fantasy VII"
+                type: "PlayStation",
+                content: "Bloodborne"
             }
         ]
     },
     {
-        question: "What console would you prefer to own?",
+        question: "What would you prefer to buy?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box One"
+                type: "PC",
+                content: "GeForce RTX 2080 TI"
             },
             {
-                type: "Nintendo",
-                content: "Wii U"
+                type: "X-Box",
+                content: "Next Generetion X-Box"
             },
             {
-                type: "Sony",
-                content: "Playstation 4"
+                type: "PlayStation",
+                content: "Next Generetion PlayStation"
             }
         ]
     }
