@@ -122,9 +122,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            React Quiz
-        </p>
+          <h2>React Quiz</h2>
         </header>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
